@@ -36,3 +36,10 @@ Cria um novo pedido.
     { "nome": "Livro Spring", "quantidade": 1 }
   ]
 }
+```
+
+🔗 Serviço Producer (Envio de Mensagens)
+Este serviço depende do microserviço pedido que consome as mensagens da fila do RabbitMQ.
+
+📤 Acesse o repositório do Consumer:
+👉 https://github.com/deividSantosz/ms-processamento
